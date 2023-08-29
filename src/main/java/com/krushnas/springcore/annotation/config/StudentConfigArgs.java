@@ -8,6 +8,6 @@ public class StudentConfigArgs {
 
 	@Bean("student2")
 	public StudentBeanArgs getStudent() {
-		return new StudentBeanArgs(2,"Karan","karan@gmail.com");
+		return new StudentBeanArgs(2, "Karan", "karan@gmail.com");
 	}
 }

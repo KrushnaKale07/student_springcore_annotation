@@ -14,7 +14,5 @@ public class StudentMain {
 
 		System.out.println(student1);
 		((AnnotationConfigApplicationContext) context).close();
-
 	}
-
 }

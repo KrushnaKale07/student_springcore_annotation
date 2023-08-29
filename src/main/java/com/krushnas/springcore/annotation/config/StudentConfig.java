@@ -6,7 +6,7 @@ import com.krushnas.sprongcore.annotation.bean.StudentBean;
 
 public class StudentConfig {
 
-	@Bean		//Method level annotation
+	@Bean // Method level annotation
 	public StudentBean getStudent() {
 		StudentBean student1 = new StudentBean();
 		student1.setId(1);
